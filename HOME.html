@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO-HOME</title>
+    <!-- Tailwind framework -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Fontawesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Main css -->
+    <link rel="stylesheet" href="main.css">
+    
+
+
+</head>
+
+
+<body>
+
+    <header>
+         
+        <img class="relative imgheader w-full" src="./Assets/imgheader.jpg" alt="img">
+
+        <button class="boton rounded-lg py-1 px-5 absolute right-5 top-5">LOGIN</button>
+
+        <div class="md:absolute top-40 left-14 xl:ml-24 ">
+
+            <!-- Distintos <p> con distintos saltos de linea para cada resolución (móvil,tablet y desktop) -->
+
+           <p class="font-semibold mt-5 md:hidden">One more streaming app, 
+           may be it will be the best</p>
+
+           <p class="font-semibold mt-5 hidden md:block lg:hidden">One more streaming app, 
+            may be it will be the <br> best</p>
+
+           <p class="font-semibold mt-5 mb-4 hidden lg:block">One more streaming app, 
+            may be it will <br> be the best</p>
+
+            <!------------------------------>
+
+           <p class="font-normal text-lg mt-0.5 lg:mb-24">USD 10.50/month</p>
+        
+           <button class="boton rounded-lg py-2 px-16
+           mt-4  ">SIGN UP NOW</button>
+           
+           <p class="text-white txt mt-6 ml-4">*Price may vary depending on the currency or platform used for payment.
+            <br> Third-party fees may apply.<br></p>
+               
+        </div>
+
+        <hr class="mt-12 ml-20 mr-20 bg-white h-0.5 mb-16">
+
+    </header>
+
+
+
+    <article>
+
+        <h1 class="mt-10 mb-4 font-semibold text-xl">Watch the way you want</h1>
+
+        <!-- Distintos <p> con distintos saltos de linea para cada resolución (móvil,tablet y desktop) -->
+
+        <p class="text-xs md:hidden ">Enjoy the big screen experience on your TV, or <br> watch on your tablet, laptop,phone and more. You 
+        <br> can watch an ever growing selection of titles in 4k.<br>
+        Plus, you can stream on 4 screens at once, so <br> everyone's happy.</p>
+
+        <p class="text-xs hidden md:block lg:hidden">Enjoy the big screen experience on your TV, or  watch on your tablet, laptop,phone and more. You <br> 
+        can watch an ever growing selection of titles in 4k.
+        Plus, you can stream on 4 screens at once, so <br>  everyone's happy.</p>
+
+        <p class="text-xs hidden lg:block">Enjoy the big screen experience on your TV, or  watch on your tablet, laptop,phone and more. 
+        You can watch an ever growing selection of titles in 4k. Plus, you can stream on 4 screens at once, so everyone's happy.</p>
+
+        
+
+        
+
+    </article>
+
+
+    <!-- SECCION DE LOS ICONOS PARA MOVIL -->
+
+    <section class="md:hidden"    style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
+        <h1 class="mt-10 mb-10 font-semibold text-xl text-center">Available on your favourite devices</h1>
+
+        <div class="flex flex-row place-content-around mb-10">
+
+            <div>
+
+               <img class="device" src="./Assets/television.png" alt="tv">
+
+               <h2>TV</h2>
+               <dl>
+                   <dt>Amazon Fire TV</dt>
+                   <dt>Android TV</dt>
+                   <dt>Apple TV</dt>
+                   <dt>Chromecast</dt>
+                   <dt>LG TVs</dt>
+                   <dt>Roku</dt>
+                   <dt>Samsung</dt>
+               </dl>
+
+            </div>
+            
+            <div>
+
+                <img class="device" src="./Assets/laptop.png" alt="pc">
+
+                <h2>Computer</h2>
+                
+                <dl>
+                  <dt>Chrome OS</dt>
+                  <dt>MacOs</dt>
+                  <dt>Windows PC</dt>
+                </dl>
+            </div>
+
+        </div>
+
+
+        <div class="flex flex-row place-content-around">
+    
+
+            <div class="mr-3">
+
+               <img class="device" src="./Assets/celular.png" alt="cel">
+
+               <h2>Mobile & Tablet</h2>
+      
+               <dl>
+                 <dt>Amazon Fire Tablets</dt>
+                 <dt>Android Phones & Tablets</dt>
+                 <dt>iPhone & iPad</dt>
+               </dl>
+
+            </div>
+
+
+            <div class="mr-3">
+           
+               <img class="device" src="./Assets/consola.png" alt="game">
+
+               <h2>Game Consoles</h2>
+
+              <dl>
+                 <dt>PS4</dt>
+                 <dt>PS5</dt>
+                 <dt>Xbox One</dt>
+                 <dt>Xbox Series X</dt>
+                 <dt>Xbox Series S</dt>
+              </dl>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCION DE LOS ICONOS PARA TABLET Y DESKTOP -->
+
+    <section class="hidden md:block"    style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
+        <h1 class="mt-10 mb-10 font-semibold text-xl text-center">Available on your favourite devices</h1>
+
+        <div class="flex flex-row place-content-around mt-20">
+            
+            
+            <div>
+
+               <img class="device" src="./Assets/television.png" alt="tv">
+
+               <h2>TV</h2>
+
+            
+               <dl>
+                   <dt>Amazon Fire TV</dt>
+                   <dt>Android TV</dt>
+                   <dt>Apple TV</dt>
+                   <dt>Chromecast</dt>
+                   <dt>LG TVs</dt>
+                   <dt>Roku</dt>
+                   <dt>Samsung</dt>
+               </dl>
+
+            </div>
+
+            <div>
+     
+                <img class="device" src="./Assets/laptop.png" alt="pc">
+
+                <h2>Computer</h2>
+
+                <dl>
+                  <dt>Chrome OS</dt>
+                  <dt>MacOs</dt>
+                  <dt>Windows PC</dt>
+                </dl>
+
+
+            </div>
+
+            <div class="mr-3">
+    
+                <img class="device" src="./Assets/celular.png" alt="cel">
+    
+                <h2>Mobile & Tablet</h2>
+      
+                <dl>
+                 <dt>Amazon Fire Tablets</dt>
+                 <dt>Android Phones & Tablets</dt>
+                 <dt>iPhone & iPad</dt>
+               </dl>
+    
+            </div>
+    
+            <div class="mr-3">
+           
+               <img class="device" src="./Assets/consola.png" alt="game">
+    
+               <h2>Game Consoles</h2>
+    
+              <dl>
+                 <dt>PS4</dt>
+                 <dt>PS5</dt>
+                 <dt>Xbox One</dt>
+                 <dt>Xbox Series X</dt>
+                 <dt>Xbox Series S</dt>
+              </dl>
+    
+            </div>
+    
+        </div>
+        
+
+    </section>
+
+
+    <footer class="mt-10 mb-5 font-medium text-sm">
+
+        <p>@2021</p>
+
+
+    </footer>
+    
+
+
+</body>
+    
+
+</html>
+
+       
+    
+
+
+        
+
+
+
+
+
+
