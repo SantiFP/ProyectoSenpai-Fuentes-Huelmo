@@ -78,6 +78,7 @@ label::before{
   left: 17px;
   top:6px;
   cursor: pointer;
+  border: 3px solid white;
   
 }
 
