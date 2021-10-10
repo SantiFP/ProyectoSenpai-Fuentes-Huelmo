@@ -8,7 +8,7 @@ export const FormLogin = (props) => {
             
           <form  className="flex flex-col w-11/12 mx-auto "> 
 
-                <input class="input mt-5 p-2 pl-5 py-3 placeholder-blue-500 font-semibold 
+                <input className="input mt-5 p-2 pl-5 py-3 placeholder-blue-500 font-semibold 
                 md:py-4 lg:py-2 lg:mt-3" type="text" placeholder={props.placeHolder} />
                 
           </form> 
